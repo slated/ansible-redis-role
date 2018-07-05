@@ -7,9 +7,10 @@ lint:
   name: yamllint
 platforms:
   - name: instance
-    image: ubuntu
+    image: ubuntu:16.04
     image_version: 16.04
     privileged: True
+    command: /sbin/init
 provisioner:
   name: ansible
   lint:
