@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/slated/ansible-redis-roles.svg?branch=master)](https://travis-ci.org/slated/ansible-redis-roles)
+[![Build Status](https://travis-ci.org/slated/ansible-redis-role.svg?branch=master)](https://travis-ci.org/slated/ansible-redis-role)
 
 Role Name
 =========
