@@ -1,5 +1,11 @@
 ---
 
+- name: RabbitMQ apt repos
+  apt_repository:
+    repo: "ppa:redislabs/redis"
+    state: present
+    update_cache: yes
+
 - name: Install redis server
   apt:
     update_cache: yes
